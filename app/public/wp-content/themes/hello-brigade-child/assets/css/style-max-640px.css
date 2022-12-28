@@ -1,0 +1,6 @@
+@media screen and (max-width:640px){
+	body .gform_wrapper.gform_validation_error .top_label li.gfield.gfield_error.gf_left_half, body .gform_wrapper.gform_validation_error .top_label li.gfield.gfield_error.gf_right_half{
+		width: 100%;
+		max-width: 100%;
+	}
+}

@@ -1,0 +1,11 @@
+@media screen and (max-width: 1024px){
+    .footer-top{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .footer-section:after {
+        width: 300px;
+        height: 500px;
+    }
+}

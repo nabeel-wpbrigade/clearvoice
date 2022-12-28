@@ -1,0 +1,12 @@
+body .elementor-widget-heading h1.elementor-heading-title,
+body h1,
+body .h1, 
+body .elementor-widget-heading.h1 .elementor-heading-title, 
+h1.elementor-cta__title.elementor-cta__content-item {
+	font-family: "avenir", Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    font-weight: 900;
+    color: red;
+	line-height: 1.142857; /* 64px */
+	/* letter-spacing: -0.6px; */
+}

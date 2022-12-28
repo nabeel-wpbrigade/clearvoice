@@ -1,0 +1,36 @@
+@media screen and (max-width:1024px){
+
+	body .elementor-widget-heading h1.elementor-heading-title,
+body h1,
+body .h1, 
+body .elementor-widget-heading.h1 .elementor-heading-title, 
+h1.elementor-cta__title.elementor-cta__content-item {
+    font-size: 44px;
+}
+
+body .elementor-widget-heading h2.elementor-heading-title,
+body h2,
+body .h2, 
+body .elementor-widget-heading.h2 .elementor-heading-title, 
+h2.elementor-cta__title.elementor-cta__content-item,
+body .elementor-image-box-content h2.elementor-image-box-title,
+.elementor-posts .elementor-post__card h2.elementor-post__title,
+.elementor-posts h2.elementor-post__title {
+    font-size: 38px;
+}
+
+body .elementor-widget-heading h3.elementor-heading-title,
+body h3,
+body .h3, 
+body .elementor-widget-heading.h3 .elementor-heading-title, 
+h3.elementor-cta__title.elementor-cta__content-item,
+body .elementor-image-box-content h3.elementor-image-box-title,
+.elementor-posts .elementor-post__card h3.elementor-post__title,
+.elementor-posts h3.elementor-post__title {
+    font-size: 30px;
+}
+
+body .large .elementor-heading-title{
+    font-size: 46px;
+}
+}

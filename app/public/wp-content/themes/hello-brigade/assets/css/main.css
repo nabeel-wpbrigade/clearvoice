@@ -1,0 +1,5 @@
+@import url('style.css'); 
+
+@import url('style-max-1024px.css');
+
+@import url('style-max-767px.css');
