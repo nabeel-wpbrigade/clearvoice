@@ -1,0 +1,162 @@
+[26-Dec-2022 10:12:51 UTC] PHP Warning:  Undefined array key "data" in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php on line 171
+[26-Dec-2022 11:24:14 UTC] PHP Warning:  Undefined array key "data" in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\plugins\elementor\core\common\modules\ajax\module.php on line 171
+[28-Dec-2022 05:01:04 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "USINSTRUMENTS_THEME_URI" in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php:23
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): usinstruments_scripts_styles('')
+#1 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(3043): do_action('wp_head')
+#8 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\header.php(21): wp_head()
+#9 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(783): require_once('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(718): load_template('C:\\Users\\Admini...', true, Array)
+#11 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\index.php(15): get_header()
+#13 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#14 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#15 C:\Users\Administrator\Local Sites\clear-voice\app\public\index.php(17): require('C:\\Users\\Admini...')
+#16 {main}
+  thrown in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php on line 23
+[28-Dec-2022 05:01:07 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "USINSTRUMENTS_THEME_URI" in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php:23
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): usinstruments_scripts_styles('')
+#1 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(3043): do_action('wp_head')
+#8 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\header.php(21): wp_head()
+#9 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(783): require_once('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(718): load_template('C:\\Users\\Admini...', true, Array)
+#11 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\index.php(15): get_header()
+#13 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#14 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#15 C:\Users\Administrator\Local Sites\clear-voice\app\public\index.php(17): require('C:\\Users\\Admini...')
+#16 {main}
+  thrown in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php on line 23
+[28-Dec-2022 05:01:13 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLEARVOICE_THEME_VERSION" in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php:83
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): hello_brigade_scripts_styles('')
+#1 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(3043): do_action('wp_head')
+#8 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\header.php(21): wp_head()
+#9 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(783): require_once('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(718): load_template('C:\\Users\\Admini...', true, Array)
+#11 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\index.php(15): get_header()
+#13 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#14 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#15 C:\Users\Administrator\Local Sites\clear-voice\app\public\index.php(17): require('C:\\Users\\Admini...')
+#16 {main}
+  thrown in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php on line 83
+[28-Dec-2022 05:01:14 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLEARVOICE_THEME_VERSION" in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php:83
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): hello_brigade_scripts_styles('')
+#1 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(3043): do_action('wp_head')
+#8 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\header.php(21): wp_head()
+#9 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(783): require_once('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(718): load_template('C:\\Users\\Admini...', true, Array)
+#11 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\index.php(15): get_header()
+#13 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#14 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#15 C:\Users\Administrator\Local Sites\clear-voice\app\public\index.php(17): require('C:\\Users\\Admini...')
+#16 {main}
+  thrown in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php on line 83
+[28-Dec-2022 05:01:35 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLEARVOICE_THEME_VERSION" in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php:83
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): hello_brigade_scripts_styles('')
+#1 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(3043): do_action('wp_head')
+#8 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\header.php(21): wp_head()
+#9 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(783): require_once('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(718): load_template('C:\\Users\\Admini...', true, Array)
+#11 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\index.php(15): get_header()
+#13 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#14 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#15 C:\Users\Administrator\Local Sites\clear-voice\app\public\index.php(17): require('C:\\Users\\Admini...')
+#16 {main}
+  thrown in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php on line 83
+[28-Dec-2022 05:01:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLEARVOICE_THEME_VERSION" in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php:83
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): hello_brigade_scripts_styles('')
+#1 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(3043): do_action('wp_head')
+#8 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\header.php(21): wp_head()
+#9 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(783): require_once('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(718): load_template('C:\\Users\\Admini...', true, Array)
+#11 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\index.php(15): get_header()
+#13 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#14 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#15 C:\Users\Administrator\Local Sites\clear-voice\app\public\index.php(17): require('C:\\Users\\Admini...')
+#16 {main}
+  thrown in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php on line 83
+[28-Dec-2022 05:01:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLEARVOICE_THEME_VERSION" in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php:83
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): hello_brigade_scripts_styles('')
+#1 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(3043): do_action('wp_head')
+#8 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\header.php(21): wp_head()
+#9 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(783): require_once('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(718): load_template('C:\\Users\\Admini...', true, Array)
+#11 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\index.php(15): get_header()
+#13 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#14 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#15 C:\Users\Administrator\Local Sites\clear-voice\app\public\index.php(17): require('C:\\Users\\Admini...')
+#16 {main}
+  thrown in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php on line 83
+[28-Dec-2022 05:01:36 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "CLEARVOICE_THEME_VERSION" in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php:83
+Stack trace:
+#0 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): hello_brigade_scripts_styles('')
+#1 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#2 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#3 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\script-loader.php(2180): do_action('wp_enqueue_scri...')
+#4 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(308): wp_enqueue_scripts('')
+#5 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#6 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#7 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(3043): do_action('wp_head')
+#8 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\header.php(21): wp_head()
+#9 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(783): require_once('C:\\Users\\Admini...')
+#10 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template.php(718): load_template('C:\\Users\\Admini...', true, Array)
+#11 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#12 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\index.php(15): get_header()
+#13 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Admini...')
+#14 C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Admini...')
+#15 C:\Users\Administrator\Local Sites\clear-voice\app\public\index.php(17): require('C:\\Users\\Admini...')
+#16 {main}
+  thrown in C:\Users\Administrator\Local Sites\clear-voice\app\public\wp-content\themes\hello-brigade\includes\theme.php on line 83
